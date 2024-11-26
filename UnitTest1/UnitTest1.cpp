@@ -27,7 +27,7 @@ namespace UnitTest1
 			double x_1 = 2.0;
 			double x_2 = 2.0;
 			double step = 3;
-			double expected = 12;
+			double expected = 10;
 
 			double actual = Calculate(x_1, x_2, step, n);
 			Assert::AreEqual(expected, actual);

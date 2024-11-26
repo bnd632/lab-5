@@ -9,7 +9,7 @@ void checkValidInput() {
         throw "Invalid input. Please enter a number.";
     }
 }
-
+ 
 void checkValidParams(int n) {
     if (n <= 3) {
         throw "Invalid value for n. n must be greater than 3.";
